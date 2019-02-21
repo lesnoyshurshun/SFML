@@ -39,7 +39,7 @@ namespace sf
 /// \brief Specialized shape representing a convex polygon
 ///
 ////////////////////////////////////////////////////////////
-class SFML_GRAPHICS_API ConvexShape : public Shape
+class SFML_GRAPHICS_API ConvexShape : virtual public Shape
 {
 public:
 
